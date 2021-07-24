@@ -1,0 +1,30 @@
+[
+
+    {
+        "nama": "Sandhika",
+        "umur": 28,
+        "nrp": "1133469143",
+        "lulus": true,
+        "hobby": ["coding", "gaming"],
+        "pembimbing": {
+
+            "pembimbing 1": "reza",
+            "pembimbing 2": "kurniawan"
+
+        }
+    },
+
+    {
+        "nama": "Sandhika",
+        "umur": 28,
+        "nrp": "1133469143",
+        "lulus": true,
+        "hobby": ["coding", "gaming"],
+        "pembimbing": {
+
+            "pembimbing 1": "reza",
+            "pembimbing 2": "kurniawan"
+
+        }
+    }
+]
