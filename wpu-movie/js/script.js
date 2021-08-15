@@ -9,20 +9,16 @@ $('#search-button').on('click', function() {
             's': $('#search-input').val()
         },
         success: function(result) {
-            console.log(result);
-            // if (result.Response == "True") {
-            //     let movies = result.Search;
-            //     console.log(movies);
-            // } else {
-            //     $('#movie-list').html(
-            //         `
-            //         <div class="col">
-            //         <h1 class="text-danger"> ` +
-            //         result.Error +
-            //         `</h1>
-            //         </div>
-            //     `)
-            // }
+            // console.log(result);
+            if (result.Response == "True") {
+                let movies = result.Search;
+                console.log(movies);
+            } else {
+                $('#movie-list').html(`
+                    <h1 class="text-center"> ` + result.Error + `</h1>
+                `)
+            }
+
         }
     });
 });
